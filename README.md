@@ -58,8 +58,8 @@ sudo pip install MySQL-python
 ```python
     db = MySQLdb.connect(host="fubini.swarthmore.edu",
             port = 3306,
-            user="jess",
-            passwd="aeroponic_growth",
+            user="username",
+            passwd="password",
         db="grow")
     cur = db.cursor()
 ```
